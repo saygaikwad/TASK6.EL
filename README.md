@@ -1,9 +1,3 @@
-Understood — you want a **serious, professional README** without emojis.  
-Here’s the **perfect** version, **aligned**, **plain**, and **formal**:
-
----
-
-# Task 6 - Data Analytics Internship (Elevate Labs)
 
 ## Project Title
 **Online Shop Customer Sales Analysis**
