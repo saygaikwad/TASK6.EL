@@ -1,53 +1,51 @@
-# TASK6.EL
- Sales Trend Analysis Using Aggregations
+Understood — you want a **serious, professional README** without emojis.  
+Here’s the **perfect** version, **aligned**, **plain**, and **formal**:
 
-Project Title
-Online Shop Customer Sales Analysis
+---
 
-Dataset
-Source: Downloaded from Kaggle
+# Task 6 - Data Analytics Internship (Elevate Labs)
 
-Dataset: Online Shop Customer Sales Data
+## Project Title
+**Online Shop Customer Sales Analysis**
 
-Database Setup
-Created a new database named task_6.
+## Dataset
+- **Source**: Kaggle
+- **Name**: Online Shop Customer Sales Data
 
-Imported the Online Shop Customer Sales Data into the database for analysis.
+## Database Setup
+- Created a new database named **`task_6`**.
+- Imported the Online Shop Customer Sales Data into the database.
 
-Tasks Performed
-Total Sales Calculation:
+## Tasks Performed
+- **Total Sales Calculation**  
+  Calculated the overall total sales from the dataset.
 
-Calculated the overall total sales generated.
+- **Date Column Correction**  
+  Converted the date field into the correct date datatype for accurate time-based operations.
 
-Date Column Correction:
+- **Month and Year Extraction**  
+  Extracted the month and year separately from the corrected date column for better analysis.
 
-Converted the date column into the correct date datatype.
+- **Unique Orders Calculation**  
+  Used `COUNT(DISTINCT order_id)` to calculate the total number of unique orders.
 
-Ensured accurate date-related operations such as filtering, aggregation, and extraction.
+- **Limiting Results**  
+  Applied `LIMIT` to restrict the number of months or records displayed in query results.
 
-Month and Year Extraction:
+- **Filtering by Date Range**  
+  Used `WHERE`, `BETWEEN`, and `AND` clauses to filter records for specific dates and ranges.
 
-Extracted month and year values from the corrected date field for time-based analysis.
+## SQL Concepts Used
+- `SELECT`, `WHERE`, `BETWEEN`, `AND`
+- `COUNT(DISTINCT)`
+- `EXTRACT(MONTH FROM date)`, `EXTRACT(YEAR FROM date)`
+- `LIMIT`
+- Date type conversion
 
-Number of Orders:
+## Tools Used
+- SQL (MySQL, PostgreSQL, or other RDBMS)
+- Kaggle (for dataset download)
+- SQL client (such as MySQL Workbench, DBeaver, or pgAdmin)
 
-Used the COUNT(DISTINCT order_id) function to calculate the total number of unique orders.
-
-Limiting Results:
-
-Used LIMIT to restrict the output to a specific number of months or records for easier interpretation.
-
-Filtering by Date:
-
-Applied WHERE clauses along with BETWEEN and AND operators to extract records for specific dates or date ranges.
-
-SQL Concepts Used
-SELECT, WHERE, BETWEEN, AND
-
-COUNT(DISTINCT)
-
-EXTRACT(MONTH FROM date), EXTRACT(YEAR FROM date)
-
-LIMIT
-
-Data type conversion for date fields
+## Summary
+This task involved setting up a new database, cleaning and correcting the date fields, performing aggregations, applying date-based filters, and analyzing online shop customer sales data using SQL queries.
