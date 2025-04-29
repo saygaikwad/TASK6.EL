@@ -39,7 +39,7 @@
 ## Tools Used
 - SQL (MySQL, PostgreSQL, or other RDBMS)
 - Kaggle (for dataset download)
-- SQL client (such as MySQL Workbench, DBeaver, or pgAdmin)
+- SQL client 
 
 ## Summary
 This task involved setting up a new database, cleaning and correcting the date fields, performing aggregations, applying date-based filters, and analyzing online shop customer sales data using SQL queries.
